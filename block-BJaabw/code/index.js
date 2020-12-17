@@ -12,7 +12,7 @@ minToSec(2) ➞ 120
 
 // - Write a Function Decleration for above problem
 function minToSec() {
-  // Your code
+ let 
 }
 // - Execute the function with required parameter
 
@@ -50,7 +50,7 @@ Obese: BMI is 30 or more
 */
 
 function calculateBMI() {
-  // Your code
+ 
 }
 
 /* 3. appropiateDrinks
@@ -64,8 +64,16 @@ Create a function that take the age are return the appropiate drink based on the
 
 */
 
-function appropiateDrinks() {
-  // Your code
+function appropiateDrinks(age) {
+  if(age<14){
+    return "drink fruit juice";
+  } else if(age>14 && age<18){
+    return "drink soda";
+  } else if(age>18 && age<21){
+    return "drink fruit-flavored beer";
+  } else{
+    return "drink throat-piercing vodka";
+  }
 }
 
 /* 4. Add two numers or string
@@ -79,8 +87,10 @@ Twist is when user passes anything other than number, or string value you should
 
 */
 
-function sum() {
-  // Your code
+function sum(n1,n2) {
+ if(n1,n2=== number){
+   return n1 + n2;
+ }
 }
 
 // Function Test
