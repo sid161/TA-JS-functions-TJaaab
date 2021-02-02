@@ -16,7 +16,7 @@ sayHello();
 */
 function fullName(){
   let firstName = prompt(`Enter your First name`);
-  let secondName = prompt(`Enter your last name`);
+  let lastName = prompt(`Enter your last name`);
   let fullName = (`${firstName + secondName}`);
   alert(`${fullName}`);
 }
